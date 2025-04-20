@@ -8,7 +8,7 @@ mongoose.connect("mongodb://127.0.0.1/ECommerce")
     .catch(err => console.log(err))
 
 const app = express()
-const PORT = 5000;
+const PORT = 3000;
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
